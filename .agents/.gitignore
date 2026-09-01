@@ -1,0 +1,23 @@
+# 3-Layer Architecture Ignored Files
+
+# Intermediates (.tmp)
+.tmp/*
+!.tmp/.gitkeep
+
+# Environment and Secrets
+.env
+.env.local
+credentials.json
+token.json
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# OS specific
+.DS_Store
+Thumbs.db
